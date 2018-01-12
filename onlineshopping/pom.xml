@@ -14,6 +14,13 @@
 
 
 	<dependencies>
+	
+		<!-- Linking Backend with front end project -->
+		<dependency>
+			<groupId>net.kzn</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- JAVA EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
@@ -39,7 +46,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-	<!-- JSTL -->
+		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
